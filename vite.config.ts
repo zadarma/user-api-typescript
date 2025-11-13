@@ -1,0 +1,19 @@
+import {resolve} from 'path'
+import {defineConfig} from 'vite'
+import dts from 'vite-plugin-dts'
+
+export default defineConfig({
+  build: {
+    lib: {
+      entry: resolve(__dirname, 'src/index.ts'),
+      formats: ['cjs', 'es'],
+      fileName: format => `zadarma.${format}.js`,
+    },
+    rollupOptions: {
+      external: ['crypto'],
+    }
+  },
+  plugins: [
+    dts(),
+  ]
+})

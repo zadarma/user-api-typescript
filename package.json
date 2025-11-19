@@ -1,6 +1,6 @@
 {
   "name": "zadarma-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Zadarma API client library for TypeScript / JavaScript",
   "repository": {
     "type": "git",

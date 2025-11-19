@@ -55,6 +55,8 @@ console.log(result)
 Error handling:
 
 ```ts
+import {ApiException} from 'zadarma-api'
+
 try {
   const result = await api.getSipStatus('YOUR_SIP_ID')
 } catch (error) {

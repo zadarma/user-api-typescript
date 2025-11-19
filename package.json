@@ -2,6 +2,10 @@
   "name": "zadarma-api",
   "version": "1.0.2",
   "description": "Zadarma API client library for TypeScript / JavaScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zadarma/user-api-typescript"
+  },
   "main": "./dist/zadarma.cjs.js",
   "module": "./dist/zadarma.es.js",
   "types": "./dist/index.d.ts",
